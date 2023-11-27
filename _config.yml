@@ -101,7 +101,7 @@ zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
-  The best way to reach me is by email at <a href="mailto:pratikshapai77@gmail.com">{{ email }}</a>.
+  The best way to reach me is via <a href="mailto:pratikshapai77@gmail.com"> email </a>.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -122,10 +122,10 @@ blog_nav_title: blog # your blog must have a title for it to be displayed in the
 blog_description: A collection of my thoughts and writings.
 permalink: /blog/:year/:title/
 
-github: github
-github_nav_title: github # your blog must have a title for it to be displayed in the nav bar
-github_description: A collection of repositories I have worked on.
-permalink: /github/:year/:title/
+repositories: repositories
+repositories_nav_title: repositories # your blog must have a title for it to be displayed in the nav bar
+repositories_description: A collection of repositories I have worked on.
+permalink: /repositories/:year/:title/
 
 
 # Pagination

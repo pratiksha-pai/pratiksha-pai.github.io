@@ -61,11 +61,11 @@
                 </a>
               </li>
               {%- endif %}
-              {% if site.github_nav_title %}
-              <!-- Github -->
-              <li class="nav-item {% if page.url contains 'github' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/github/' | relative_url }}">{{ site.github_nav_title }}
-                  {%- if page.url contains 'github' -%}
+              {% if site.repositories_nav_title %}
+              <!-- Repositories -->
+              <li class="nav-item {% if page.url contains 'repositories' %}active{% endif %}">
+                <a class="nav-link" href="{{ '/repositories/' | relative_url }}">{{ site.repositories_nav_title }}
+                  {%- if page.url contains 'repositories' -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
                 </a>
